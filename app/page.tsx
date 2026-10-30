@@ -5,12 +5,12 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const videoSources = [
-  'videos/day1-desert-arrival.mp4',
-  '/videos/Desert%20video.mp4',
-  '/videos/day2-cyberpunk-arrival.mp4.mp4',
-  '/videos/Cyberpunk%20video.mp4',
-  '/videos/day3-carnival-arrival.mp4.mp4',
-  '/videos/Carnival%20video.mp4',
+  'https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/day1-desert-arrival.mp4',
+  'https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/Desert%20video.mp4',
+  'https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/day2-cyberpunk-arrival.mp4.mp4',
+  'https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/Cyberpunk%20video.mp4',
+  'https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/day3-carnival-arrival.mp4.mp4',
+  'https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/Carnival%20video.mp4',
 ];
 
 const transitions = [
@@ -308,7 +308,7 @@ function OpeningScreen({ onComplete }: { onComplete: () => void }) {
     <section className="fixed inset-0 z-[100] h-[100dvh] w-full overflow-hidden bg-black text-white">
       <video
         ref={videoRef}
-        src="https://raw.githubusercontent.com/kalikibhuvanesh/avinya-assets/main/ship-departure.mp4"
+        src="https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/ship-departure.mp4"
         autoPlay
         muted
         playsInline
@@ -948,7 +948,7 @@ export default function Home() {
         className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#030711] px-6 py-24 text-white"
       >
         <video
-          src="https://raw.githubusercontent.com/kalikibhuvanesh/avinya-assets/main/hack2future.mp4"
+          src="https://raw.githubusercontent.com/kalikibhuvanesh/avinya-2027/main/hack2future.mp4"
           autoPlay
           muted
           playsInline
