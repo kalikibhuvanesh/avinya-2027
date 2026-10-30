@@ -20,8 +20,9 @@ export const metadata: Metadata = {
     description: 'Three islands. One journey. Endless possibilities.',
   },
   icons: {
-  icon: '/icon.png',
-  shortcut: '/icon.png',
+  icon: '/favicon.png',
+  shortcut: '/favicon.png',
+  apple: '/favicon.png',
 },
 };
 
