@@ -19,6 +19,10 @@ export const metadata: Metadata = {
     title: 'AVINYA 2027 | Beyond the Horizon',
     description: 'Three islands. One journey. Endless possibilities.',
   },
+  icons: {
+  icon: '/icon.png',
+  shortcut: '/icon.png',
+},
 };
 
 export default function RootLayout({
